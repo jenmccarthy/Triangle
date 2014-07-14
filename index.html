@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What kind of triangle do you have?</h1>
+
+      <form id="triangle">
+        <div class="form-group">
+          <label for="side1">Input the length of one side of your triangle:</label>
+          <input id="side1" type="text">
+          <label for="side2">Input the length of another side of your triangle:</label>
+          <input id="side2" type="text">
+          <label for="side3">And finally, input the length of the last side of your triangle:</label>
+          <input id="side3" type="text">
+        </div>
+
+        <button type="submit" class="btn">Find out your type of triangle!</button>
+      </form>
+
+      <div id="result">
+        <p>Your triangle is: <span class="type-of-triangle"></span>
+      </div>
+    </div>
+  </body>
+</html>
